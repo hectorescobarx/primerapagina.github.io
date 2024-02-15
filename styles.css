@@ -1,0 +1,51 @@
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 15vh;
+}
+
+.container{
+    display:flex;     
+    justify-content: space-evenly;
+    height: 70vh;
+    align-items: center;
+}
+
+.plancontainer{
+    display: flex;              
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;            /*.plancontainer esta heredando esta propiedad a sus hijos*/
+    border: solid blue 1px;
+    border-radius: 5%;
+    width: 30vh;
+    height: 50%;
+
+}
+
+button{
+    border: solid black 1pt;
+    border-radius: 12%;
+}
+button:hover{
+    background-color: red;
+    color: aliceblue;
+}
+
+.plan{
+    text-align: center;
+}
+
+
+
+footer{
+    height: 15vh;
+    text-align: center;
+}
