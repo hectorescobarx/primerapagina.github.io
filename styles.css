@@ -1,14 +1,23 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 header{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+    color: white;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
     height: 15vh;
+    width: 100%;
+    background-color: red;
+    margin-top: 2vh;
+}
+
+body{
+    background-color: blue;
 }
 
 .container{
@@ -23,10 +32,11 @@ header{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;            /*.plancontainer esta heredando esta propiedad a sus hijos*/
-    border: solid blue 1px;
+    border: solid black 1px;
     border-radius: 5%;
     width: 30vh;
     height: 50%;
+    background-color: white;
 
 }
 
